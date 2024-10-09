@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.btn {
+    position: relative;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 13px 27px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    transition: all 120ms ease-in;
+}
+
+// primary
+.btn.btn-primary {
+    background-color: #2E3239;
+    color: #8C8E93;
+}
+
+.btn.btn-primary:hover {
+    background-color: #3e434b;
+}
+
+.btn.btn-aspect-ratio {
+    padding: 0;
+    aspect-ratio: 1 / 1;
+}

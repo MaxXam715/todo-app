@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Новая задача",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "title": "Изменить текст в статье",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "title": "Нельзя закрыть окно",
+    "completed": false
+  }
+]

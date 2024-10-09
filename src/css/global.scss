@@ -1,0 +1,24 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./../icons/icons.css";
+@import "./uikit.scss";
+@import "./form.scss";
+@import "./reset.css";
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #303236;
+}
+
+.no-scroll {
+    overflow: hidden !important;
+}
+
+.G-container {
+    width: 100%;
+    max-width: calc(1280px + 160px);
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    transition: max-width 200ms, padding 200ms;
+}

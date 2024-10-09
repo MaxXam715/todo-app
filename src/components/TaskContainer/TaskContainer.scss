@@ -1,0 +1,53 @@
+.task-container {
+
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .count-tasks {
+      display: flex;
+      align-items: center;
+      grid-gap: 10px;
+
+      .separator,
+      .text {
+        color: #8C8E93;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+
+    .action-container {
+      display: flex;
+      align-items: center;
+      grid-gap: 13px;
+
+      .search-field {
+        width: 300px;
+        height: 46px;
+        border-radius: 8px;
+        background: #1b1d20;
+        border: 2px solid #4e525b;
+        padding: 0 10px;
+        font-weight: 500;
+        color: #fff;
+      }
+
+      .btn {
+        padding: 0;
+        width: 46px;
+        font-size: 24px;
+        aspect-ratio: 1 / 1;
+        transition: none;
+      }
+    }
+  }
+
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2px;
+    margin-top: 40px;
+  }
+}
